@@ -8,4 +8,27 @@ public class Ghon extends Personaje{
 		this.numerTarjetaDeCazador=numerTarjetaDeCazador;
 	}
 
+	public int getNumerTarjetaDeCazador() {
+		return numerTarjetaDeCazador;
+	}
+
+	public void setNumerTarjetaDeCazador(int numerTarjetaDeCazador) {
+		this.numerTarjetaDeCazador = numerTarjetaDeCazador;
+	}
+	
+	@Override
+	public void poder() {
+		System.out.println("Su poder es Nen.");
+	}
+	
+	@Override
+	public void defensa() {
+		System.out.println("Su defensa usa Nen.");
+	}
+	
+	@Override
+	public void ataque() {
+		System.out.println("Su ataque mas comun es Jajanken.");
+	}
+
 }
