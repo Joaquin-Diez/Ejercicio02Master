@@ -13,17 +13,11 @@ public abstract class Personaje {
 		this.colorPelo = colorPelo;
 	}
 	
-	public void poder() {
-		
-	}
+	public abstract void poder();
 	
-	public void defensa() {
-		
-	}
+	public abstract void defensa();
 	
-	public void ataque() {
-		
-	}
+	public abstract void ataque();
 
 	public String getNombre() {
 		return nombre;
